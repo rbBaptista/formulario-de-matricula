@@ -1,0 +1,36 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#app {
+	display: grid;
+	grid-template-columns: 51.25% 48.75%;
+
+	height: 100vh;
+
+	overflow: hidden;
+}
+
+main {
+	overflow: auto;
+	padding: 4rem;
+	background-color: var(--surface-primary);
+
+	& .main-container {
+		max-width: 33rem;
+		margin-left: auto;
+	}
+}
+
+aside {
+	background-color: var(--surface-secondary);
+	padding: 4rem;
+
+	& .aside-container {
+		max-width: 31rem;
+	}
+}
