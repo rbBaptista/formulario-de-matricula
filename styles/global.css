@@ -16,8 +16,23 @@
 	--stroke-default: #d6d3d1;
 	--stroke-highlight: #f3541c;
 	--semantic-error: #dc2626;
+
+	zoom: 80%;
 }
 
 body {
 	overflow: hidden;
+
+	font: var(--text);
+	color: var(--text-secondary);
+}
+
+h1,
+h2 {
+	color: var(--text-primary);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
