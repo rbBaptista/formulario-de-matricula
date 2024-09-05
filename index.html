@@ -45,12 +45,21 @@
 							</div>
 							<div class="textarea-wrapper">
 								<label for="medical-info">Informações médicas</label>
-								<textarea id="medical-info" name="medical-info" placeholder="Observações sobre a criança"></textarea>
+								<textarea
+									id="medical-info"
+									name="medical-info"
+									cols="30"
+									rows="6"
+									placeholder="Observações sobre a criança"
+								></textarea>
 							</div>
 							<div class="droparea-wrapper">
-								<input type="file" id="birth-file" name="birth-file" />
-								<img src="assets/icons/cloud-upload.svg" alt="" />
-								<p>Clique aqui para selecionar arquivos</p>
+								<label for="birth-file">Certidão de nascimento</label>
+								<div class="dropzone">
+									<input type="file" id="birth-file" name="birth-file" />
+									<img src="assets/icons/cloud-upload.svg" alt="" />
+									<p>Clique aqui para selecionar arquivos</p>
+								</div>
 							</div>
 						</fieldset>
 					</form>
